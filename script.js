@@ -109,4 +109,8 @@ function converter(){
 
 
 
-converterBtn.addEventListener("click", converter)
+converterBtn.addEventListener("click", (e) => {
+  e.preventDefault(); 
+  converter();
+})
+
